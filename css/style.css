@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
     padding: 0px;
     max-height: 100%;
+    overflow: hidden;
 }
 
 .taskbar {
@@ -32,7 +33,7 @@ body {
   top: 50px;
 }
 #readme-msg {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-left: 8px;
   width: 815px;
   height: 419px;
@@ -52,7 +53,7 @@ body {
   float: left;
 }
 #to {
-  margin-top: 160px;
+  margin-top: 130px;
   margin-left: 131px;
   width:389px;
   height:19px;
@@ -81,4 +82,9 @@ body {
 textarea {
   resize: none;
   outline: none;
+}
+.handle {
+  background: transparent;
+  height: 29px;
+  width: inherit;
 }

@@ -20,9 +20,12 @@
 <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
 <!--<div class="taskbar"></div>-->
-
-<div class="top img" id="resume"></div>
+<body onscroll="scrolltop();" >
+<div class="top img" id="resume">
+  <div class="handle" id="resume-handle"></div>
+</div>
 <div class="under img" id="readme">
+  <div class="handle" id="readme-handle"></div>
   <textarea id="readme-msg" rows="21" >
 Copyright (c) 2015 by Angela Lin
 
@@ -47,6 +50,7 @@ play video games, try new restaurants, and listen to audio-books.
   </textarea>
 </div>
 <div class="under img" id="contact">
+  <div class="handle" id="contact-handle"></div>
   <!--<div id="send"></div>-->
   <div id="inputs">
     <input type="text" id="to"></input>
@@ -54,6 +58,7 @@ play video games, try new restaurants, and listen to audio-books.
   </div>
   <textarea id="mail-msg" rows="21" ></textarea>
 </div>
+</body>
     
         <script src="js/index.js"></script>
 
