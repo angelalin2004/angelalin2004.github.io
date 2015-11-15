@@ -1,0 +1,84 @@
+body {
+    background: url("http://i214.photobucket.com/albums/cc208/_-Wind-_/School/windows7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    max-height: 100%;
+}
+
+.taskbar {
+    background: url("http://i214.photobucket.com/albums/cc208/_-Wind-_/School/taskbar_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: inherit;
+    height: 40px;
+    margin: 0px;
+}
+.img {
+  position: absolute;
+}
+#resume {
+  background:url(" http://i214.photobucket.com/albums/cc208/_-Wind-_/School/resume.png");
+  width: 597px;
+  height: 742px;
+  z-index: 3;
+}
+#readme {
+  background:url(" http://i214.photobucket.com/albums/cc208/_-Wind-_/School/README.png");
+  width: 836px;
+  height: 481px;
+  z-index: 2;
+  left: 300px;
+  top: 50px;
+}
+#readme-msg {
+  margin-top: 50px;
+  margin-left: 8px;
+  width: 815px;
+  height: 419px;
+}
+#contact {
+  background:url(" http://i214.photobucket.com/albums/cc208/_-Wind-_/School/contact.png");
+  width: 545px;
+  height: 601px;
+  z-index: 1;
+  left: 800px;
+  top: 100px;
+  position: absolute;
+}
+#inputs {
+  position: relative;
+  z-index: 1;
+  float: left;
+}
+#to {
+  margin-top: 160px;
+  margin-left: 131px;
+  width:389px;
+  height:19px;
+}
+#subject {
+  margin-top: 8px;
+  margin-left: 131px;
+  width:300px;
+  height:19px;
+}
+#send {
+  z-index: 2;
+  width: 100px;
+  height: 100px;
+  background: #333333;
+  position: relative;
+  float: left;
+}
+#mail-msg {
+  font-family: Arial, sans-serif;
+  margin-top: 14px;
+  margin-left: 8px;
+  width: 523px;
+  height: 335px;
+}
+textarea {
+  resize: none;
+  outline: none;
+}
