@@ -1,7 +1,8 @@
+
 $(window).scroll(function() {
     scroll(0,0);
 });
-/*
+
 $(".img").click(function(event){
    if ($(this).hasClass("top")) {}
    else {
@@ -14,8 +15,28 @@ $(".img").click(function(event){
      $(this).css("z-index", z);
    }  
 });
-*/
+
+$("#book-1").click(function(event){
+  $(".webpage").css("display", "none");
+  $("#calc").css("display", "block");
+  $("#firefox-url").text(
+     "file:///C:/Users/Angela/MealPlanCalculator/index.html");
+});
+$("#book-2").click(function(event){
+  $(".webpage").css("display", "none");
+  $("#cape").css("display", "block");
+  $("#firefox-url").text(
+    "file:///C:/Users/Angela/CAPEAvgStats/index.html");
+});
+$("#book-3").click(function(event){
+  $(".webpage").css("display", "none");
+  $("#hueman").css("display", "block");
+  $("#firefox-url").text(
+    "file:///C:/Users/Angela/Hueman/index.html");
+});
+
 $( ".img" ).draggable({ stack: ".img" });
 $("#resume").draggable({ handle: "#resume-handle" });
 $("#readme").draggable({ handle: "#readme-handle" });
 $("#contact").draggable({ handle: "#contact-handle" });
+$("#firefox").draggable({ handle: "#firefox-handle" });
