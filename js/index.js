@@ -16,23 +16,40 @@ $(".img").click(function(event){
    }  
 });
 
-$("#book-1").click(function(event){
+$("#book-calc").click(function(event){
   $(".webpage").css("display", "none");
   $("#calc").css("display", "block");
   $("#firefox-url").text(
-     "file:///C:/Users/Angela/MealPlanCalculator/index.html");
+     "http://codepen.io/angelalin2004/full/eAyhK");
+  $("#firefox-url").parent().attr("href", "http://codepen.io/angelalin2004/full/eAyhK");
 });
-$("#book-2").click(function(event){
+$("#book-cape").click(function(event){
   $(".webpage").css("display", "none");
   $("#cape").css("display", "block");
   $("#firefox-url").text(
-    "file:///C:/Users/Angela/CAPEAvgStats/index.html");
+    "https://chrome.google.com/webstore/detail/cape-average-stats/ofbopgppcdkefkcaho ogbmpdgeinhjep");
+  $("#firefox-url").parent().attr("href", "https://chrome.google.com/webstore/detail/cape-average-stats/ofbopgppcdkefkcahoogbmpdgeinhjep");
 });
-$("#book-3").click(function(event){
+$("#book-hueman").click(function(event){
   $(".webpage").css("display", "none");
   $("#hueman").css("display", "block");
   $("#firefox-url").text(
-    "file:///C:/Users/Angela/Hueman/index.html");
+    "http://codepen.io/angelalin2004/full/NGExgb");
+  $("#firefox-url").parent().attr("href", "http://codepen.io/angelalin2004/full/NGExgb");
+});
+$("#book-tumblr").click(function(event){
+  $(".webpage").css("display", "none");
+  $("#tumblr").css("display", "block");
+  $("#firefox-url").text(
+    "https://chrome.google.com/webstore/detail/tumblr-posts-fix/lgnkfodppadkcieeejdo amoflimlocnl");
+  $("#firefox-url").parent().attr("href", "https://chrome.google.com/webstore/detail/tumblr-posts-fix/lgnkfodppadkcieeejdoamoflimlocnl");
+});
+$("#book-10").click(function(event){
+  $(".webpage").css("display", "none");
+  $("#10boxes").css("display", "block");
+  $("#firefox-url").text(
+    "http://codepen.io/angelalin2004/full/mydwbB");
+  $("#firefox-url").parent().attr("href", "http://codepen.io/angelalin2004/full/mydwbB");
 });
 
 $( ".img" ).draggable({ stack: ".img" });
