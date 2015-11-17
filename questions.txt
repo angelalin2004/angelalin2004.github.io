@@ -1,0 +1,7 @@
+which order should i put the bookmarks?
+  - chronological creation?
+  - all codepen and then all chrome extensions?
+
+initial windows positioning?
+
+tags aligned on left or right?

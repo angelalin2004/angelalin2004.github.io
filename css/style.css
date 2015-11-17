@@ -6,7 +6,15 @@ body {
     max-height: 100%;
     overflow: hidden;
 }
-
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+#containment-wrapper {
+  width:100%;
+  height:1000px;
+}
 .taskbar {
     background: url("http://i214.photobucket.com/albums/cc208/_-Wind-_/School/taskbar_1.png");
     background-size: cover;

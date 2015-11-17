@@ -52,7 +52,7 @@ $("#book-10").click(function(event){
   $("#firefox-url").parent().attr("href", "http://codepen.io/angelalin2004/full/mydwbB");
 });
 
-$( ".img" ).draggable({ stack: ".img" });
+$( ".img" ).draggable({ stack: ".img", containment: "#containment-wrapper", scroll: false });
 $("#resume").draggable({ handle: "#resume-handle" });
 $("#readme").draggable({ handle: "#readme-handle" });
 $("#contact").draggable({ handle: "#contact-handle" });
