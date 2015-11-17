@@ -25,6 +25,15 @@ body {
   top: 20px;
   z-index: 3;
 }
+#download {
+  background: #ff0000;
+  opacity: 0.0;
+  margin-top: 60px;
+  margin-left: 50px;
+  width: 520px;
+  height: 645px;
+  cursor: pointer;
+}
 #readme {
   background:url(" http://i214.photobucket.com/albums/cc208/_-Wind-_/School/README.png");
   width: 836px;
