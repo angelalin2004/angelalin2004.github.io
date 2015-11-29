@@ -15,36 +15,42 @@ $(".img").click(function(event){
      $(this).css("z-index", z);
    }  
 });
+$("[class*='col-'] img").mouseenter(function(event){
+  $(this).css("border", "2px solid #bbbbbb");
+});
 
-$("#book-calc").click(function(event){
+$("[class*='col-'] img").mouseleave(function(event){
+  $(this).css("border", "2px solid #ffffff");
+});
+$("#book-calc, #sc-calc").click(function(event){
   $(".webpage").css("display", "none");
   $("#calc").css("display", "block");
   $("#firefox-url").text(
      "http://codepen.io/angelalin2004/full/eAyhK");
   $("#firefox-url").parent().attr("href", "http://codepen.io/angelalin2004/full/eAyhK");
 });
-$("#book-cape").click(function(event){
+$("#book-cape, #sc-cape").click(function(event){
   $(".webpage").css("display", "none");
   $("#cape").css("display", "block");
   $("#firefox-url").text(
     "https://chrome.google.com/webstore/detail/cape-average-stats/ofbopgppcdkefkcaho ogbmpdgeinhjep");
   $("#firefox-url").parent().attr("href", "https://chrome.google.com/webstore/detail/cape-average-stats/ofbopgppcdkefkcahoogbmpdgeinhjep");
 });
-$("#book-hueman").click(function(event){
+$("#book-hueman, #sc-hueman").click(function(event){
   $(".webpage").css("display", "none");
   $("#hueman").css("display", "block");
   $("#firefox-url").text(
     "http://codepen.io/angelalin2004/full/NGExgb");
   $("#firefox-url").parent().attr("href", "http://codepen.io/angelalin2004/full/NGExgb");
 });
-$("#book-tumblr").click(function(event){
+$("#book-tumblr, #sc-tumblr").click(function(event){
   $(".webpage").css("display", "none");
   $("#tumblr").css("display", "block");
   $("#firefox-url").text(
     "https://chrome.google.com/webstore/detail/tumblr-posts-fix/lgnkfodppadkcieeejdo amoflimlocnl");
   $("#firefox-url").parent().attr("href", "https://chrome.google.com/webstore/detail/tumblr-posts-fix/lgnkfodppadkcieeejdoamoflimlocnl");
 });
-$("#book-10").click(function(event){
+$("#book-10, #sc-10").click(function(event){
   $(".webpage").css("display", "none");
   $("#10boxes").css("display", "block");
   $("#firefox-url").text(

@@ -51,6 +51,9 @@ html, body {
   left:15%;
 }
 .taskbar {
+  position: fixed;
+  bottom: 0px;
+  z-index: 100;
     background: url("http://i214.photobucket.com/albums/cc208/_-Wind-_/School/taskbar_1.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -138,11 +141,14 @@ textarea {
   outline: none;
 }
 #firefox {
-  background:url(" http://i214.photobucket.com/albums/cc208/_-Wind-_/School/firefox_1.png");
+  background:url(" http://i214.photobucket.com/albums/cc208/_-Wind-_/School/firefox_3.png");
   width: 1024px;
   height: 626px;
   z-index: 4;
-  left: 100px;
+  position: relative;
+  margin-left: 10%;
+  
+  /*left: 100px;*/
   top: 10px;
 }
 .handle {
@@ -152,6 +158,34 @@ textarea {
 }
 #firefox-handle {
   height: 53px;
+}
+
+#grid {
+  width: 652px;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+}
+[class*='row-'] {
+  width: inherit;
+  height: 200px;
+}
+
+[class*='col-'] {
+  float: left;
+  height: inherit;
+  background: transparent;
+  position: relative;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 80%;
+}
+.col-3 {
+  margin-right: 0px;
+}
+[class*='col-'] img {
+  border: 2px solid white;
+  cursor: pointer;
 }
 #firefox-url {
   background: #ffffff;
@@ -239,8 +273,8 @@ textarea {
   width: 600px;
   text-align: justify;
 }
-#calc {
-  display: none;
+#home {
+  display: block;
 }
 #cape {
   padding-left: 30px;
