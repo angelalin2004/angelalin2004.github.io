@@ -68,8 +68,8 @@ html, body {
   background:url(" http://i214.photobucket.com/albums/cc208/_-Wind-_/School/resume.png");
   width: 597px;
   height: 742px;
-  left: 50px;
-  top: 650px;
+  left: 320px;
+  top: 637px;
   z-index: 3;
 }
 #download {
@@ -87,7 +87,7 @@ html, body {
   height: 481px;
   z-index: 2;
   left: 50px;
-  top: 650px;
+  top: 637px;
 }
 #readme-msg {
   margin-top: 20px;
@@ -101,7 +101,7 @@ html, body {
   height: 601px;
   z-index: 1;
   left: 750px;
-  top: 650px;
+  top: 637px;
   position: absolute;
 }
 #inputs {
@@ -149,7 +149,7 @@ textarea {
   margin-left: 10%;
   
   /*left: 100px;*/
-  top: 10px;
+  top: 5px;
 }
 .handle {
   background: transparent;
