@@ -65,7 +65,7 @@ html, body {
   position: absolute;
 }
 #resume {
-  background:url(" http://i214.photobucket.com/albums/cc208/_-Wind-_/School/resume.png");
+  background:url("http://i214.photobucket.com/albums/cc208/_-Wind-_/School/resume_1.png");
   width: 597px;
   height: 742px;
   left: 665px;
@@ -80,6 +80,7 @@ html, body {
   width: 520px;
   height: 645px;
   cursor: pointer;
+  position: absolute;
 }
 #readme {
   background:url(" http://i214.photobucket.com/albums/cc208/_-Wind-_/School/README.png");
