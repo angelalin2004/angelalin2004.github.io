@@ -68,8 +68,8 @@ html, body {
   background:url(" http://i214.photobucket.com/albums/cc208/_-Wind-_/School/resume.png");
   width: 597px;
   height: 742px;
-  left: 320px;
-  top: 637px;
+  left: 665px;
+  top: 25px;
   z-index: 3;
 }
 #download {
@@ -86,8 +86,8 @@ html, body {
   width: 836px;
   height: 481px;
   z-index: 2;
-  left: 50px;
-  top: 637px;
+  left: 130px;
+  top: 75px;
 }
 #readme-msg {
   margin-top: 20px;
@@ -100,11 +100,11 @@ html, body {
   width: 545px;
   height: 601px;
   z-index: 1;
-  left: 750px;
-  top: 637px;
+  left: 755px;
+  top: 60px;
   position: absolute;
 }
-#inputs {
+#mail-top {
   position: relative;
   z-index: 1;
   float: left;
@@ -123,10 +123,11 @@ html, body {
 }
 #send {
   z-index: 2;
-  width: 100px;
-  height: 100px;
-  background: #333333;
-  position: relative;
+  width: 52px;
+  height: 65px;
+  position: absolute;
+  left: 23px;
+  top: 130px;
   float: left;
 }
 #mail-msg {
@@ -146,7 +147,7 @@ textarea {
   height: 626px;
   z-index: 4;
   position: relative;
-  margin-left: 10%;
+  margin-left: 9%;
   
   /*left: 100px;*/
   top: 5px;
@@ -158,6 +159,9 @@ textarea {
 }
 #firefox-handle {
   height: 53px;
+}
+#firefox-url{
+  font-weight: bold;
 }
 
 #grid {

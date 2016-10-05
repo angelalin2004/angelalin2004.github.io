@@ -63,3 +63,12 @@ $("#resume").draggable({ handle: "#resume-handle" });
 $("#readme").draggable({ handle: "#readme-handle" });
 $("#contact").draggable({ handle: "#contact-handle" });
 $("#firefox").draggable({ handle: "#firefox-handle" });
+
+$("#send").mouseenter( function() {
+  console.log("HERE");
+  var link = "mailto:adl040@ucsd.edu"
+            + "?subject=" + document.getElementById('subject').value
+            + "&body=" + document.getElementById('mail-msg').value;
+  console.log(link);
+  $("#send-a").attr('href', link);          
+});
